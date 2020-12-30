@@ -1,25 +1,24 @@
-<div id="content">
-    <app-dotabuff-header></app-dotabuff-header>
-
-    <div id="ads-left">
-        <p class="ad-text">AD</p>
-    </div>
-
-    <div id="main-content">
-        <!-- <div class="center-ad">
-            <p class="ad-text">AD</p>
-        </div> -->
-        <div id="posts">
-
+<app-dotabuff-header>
+</app-dotabuff-header>
+<div id="main-content">
+    <div id="posts">
+        <div id="search-form">
+            <form>
+                <input id="search-input" type="text" placeholder="Procure por heróis, jogadores ou partidas...">
+                <button id="search-button">
+                    <i class="fa fa-search"></i>
+                    BUSCA
+                </button>
+            </form>
         </div>
 
-        <div id="activity">
-
-        </div>
+        <app-dotabuff-post></app-dotabuff-post>
+        <app-dotabuff-post></app-dotabuff-post>
+        <app-dotabuff-post></app-dotabuff-post>
+        <app-dotabuff-post></app-dotabuff-post>
     </div>
 
-    <div id="ads-right">
-        <p class="ad-text">AD</p>
-    </div>
+    <div id="activity">
 
+    </div>
 </div>

@@ -1,43 +1,11 @@
-#content {
-    width: 100%;
-    height: 90vh;
-    background-color: #1C242D;
-    margin: 0;
-}
-
-#ads-left {
-    height: 100%;
-    width: 19%;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: orangered;
-}
-
-#ads-right {
-    height: 100%;
-    width: 19%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: orchid;
+::ng-deep body {
+    background-color: #1C242D !important;
 }
 
 #main-content {
-    width: 62%;
-    height: 100%;
-    float: left;
-    background-color: white;
-}
-
-.center-ad {
-    height: 90px;
-    width: 100%;
-    border: 1px solid orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 1200px;
+    background-color: #1C242D;
+    margin: 0px auto;
 }
 
 .ad-text {
@@ -47,13 +15,59 @@
 #posts {
     width: 60%;
     height: 100%;
-    background-color: purple;
+    background-color: #1C242D;
     float: left;
 }
 
 #activity {
     width: 40%;
     height: 100%;
-    background-color: seagreen;
     float: left;
+    background-color: #1C242D;
+}
+
+#search-form {
+    background-color: #242F39;
+    height: 62px;
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 0;
+    width: 80%;
+}
+
+#search-input {
+    background-color: #1C242D;
+    color: white;
+    width: 80%;
+    min-height: 36px;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 3px rgba(10, 10, 10, 0.4);
+    padding: 0px 8px;
+}
+
+#search-input:focus {
+    outline: none !important;
+    background-color: #202933;
+}
+
+#search-button {
+    display: inline-block;
+    background-color: #242D31;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #92bb35;
+    color: #92bb35;
+    line-height: 13px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    padding: 9px 13px;
+    margin-left: 2px;
 }
