@@ -45,23 +45,30 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    width: 100%;
+    margin: 0;
 }
 
 .table-cell {
-    width: 24px;
     padding: 4px;
+}
+
+.tiny-cell {
+    width: 24px;
 }
 
 .fake-player-image {
     width: 24px;
     height: 24px;
     background-color: white;
+    margin: 0;
 }
 
 .fake-hero-image {
     height: 24px;
     width: 42px;
     background-color: white;
+    margin: 0;
 }
 
 tr {
@@ -91,7 +98,6 @@ tr {
 }
 
 .match-info {
-    width: 380px;
     height: 15px;
 }
 
