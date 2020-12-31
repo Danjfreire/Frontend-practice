@@ -1,0 +1,114 @@
+.activity-card {
+    margin-top: 50px;
+    padding: 4px 4px;
+    margin-left: 5px;
+}
+
+.activity-header {
+    margin: 0;
+    padding: 6px 4px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+}
+
+.activity-info {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: none;
+}
+
+.activity-more {
+    float: right;
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+}
+
+.activity-more a {
+    display: block;
+    padding: 4px 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.activity-body {
+    background-color: #242F39;
+    width: 100%;
+    padding: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+.table-cell {
+    width: 24px;
+    padding: 4px;
+}
+
+.fake-player-image {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+}
+
+.fake-hero-image {
+    height: 24px;
+    width: 42px;
+    background-color: white;
+}
+
+tr {
+    background-color: rgba(255, 255, 255, 0.04);
+    width: 100%;
+}
+
+.player-name {
+    text-decoration: none;
+    font-size: 12px;
+    color: #A9CF54;
+    float: left;
+}
+
+.match-status-win {
+    text-decoration: none;
+    font-size: 12px;
+    color: #A9CF54;
+    float: right;
+}
+
+.match-status-lose {
+    text-decoration: none;
+    font-size: 12px;
+    color: #B83A38;
+    float: right;
+}
+
+.match-info {
+    width: 380px;
+    height: 15px;
+}
+
+.match-data {
+    text-decoration: none;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.time {
+    float: left;
+}
+
+.gametype {
+    float: right;
+}
+
+.even-row {
+    background-color: #28333D !important;
+}
