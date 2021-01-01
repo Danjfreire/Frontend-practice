@@ -37,8 +37,7 @@
 
 .activity-body {
     background-color: #242F39;
-    width: 100%;
-    padding: 4px;
+    padding: 4px 4px;
 }
 
 table {
@@ -47,7 +46,6 @@ table {
     font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     width: 100%;
     margin: 0;
-    padding: 0px 3px;
 }
 
 .table-cell {
