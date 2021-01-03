@@ -43,7 +43,7 @@ form {
     width: 80%;
 }
 
-#search-input {
+.search-input {
     background-color: #1C242D;
     color: white;
     width: 80%;
@@ -71,6 +71,16 @@ form {
     letter-spacing: 0.5px;
     padding: 9px 13px;
     margin-left: 2px;
+}
+
+.show-on-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 720px) {
+    .search-input {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
