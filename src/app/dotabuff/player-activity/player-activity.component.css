@@ -9,7 +9,6 @@
     padding: 6px 4px;
     text-transform: uppercase;
     font-weight: normal;
-    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     font-size: 16px;
     text-shadow: 1px 1px 2px black;
     color: white;
@@ -43,7 +42,6 @@
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     width: 100%;
     margin: 0;
 }

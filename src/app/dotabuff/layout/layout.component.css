@@ -3,6 +3,7 @@
 }
 
 #main-content {
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     background-color: #1C242D;
     margin: 0px auto;
     max-width: 1200px;
@@ -67,7 +68,6 @@ form {
     border-color: #92bb35;
     color: #92bb35;
     line-height: 13px;
-    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: 0.5px;
     padding: 9px 13px;
     margin-left: 2px;

@@ -9,7 +9,6 @@
     padding: 6px 4px;
     text-transform: uppercase;
     font-weight: normal;
-    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     font-size: 16px;
     text-shadow: 1px 1px 2px black;
     color: white;
@@ -59,12 +58,10 @@ td {
 .forum-post-title {
     text-decoration: none;
     font-size: 12px;
-    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     color: #a9cf54;
 }
 
 .forum-post-info {
-    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     font-size: 11px;
     min-height: 14px;
     color: rgba(255, 255, 255, 0.6);
