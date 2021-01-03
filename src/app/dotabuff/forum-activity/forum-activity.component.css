@@ -1,43 +1,6 @@
+@import '../shared/activity-style.css';
 .activity-card {
     margin-top: 5px;
-    padding: 4px 4px;
-    margin-left: 5px;
-}
-
-.activity-header {
-    margin: 0;
-    padding: 6px 4px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 16px;
-    text-shadow: 1px 1px 2px black;
-    color: white;
-}
-
-.activity-more {
-    float: right;
-    font-size: 12px;
-    display: flex;
-    justify-content: end;
-}
-
-.activity-more a {
-    display: block;
-    padding: 4px 4px;
-    text-decoration: none;
-    color: white;
-}
-
-.activity-body {
-    background-color: #242F39;
-    padding: 4px;
-}
-
-table {
-    width: 100%;
-    margin: 0;
-    border-spacing: 0;
-    border-collapse: collapse;
 }
 
 .fake-user-picture {
@@ -45,14 +8,6 @@ table {
     width: 24px;
     height: 24px;
     margin: 0;
-}
-
-td {
-    padding: 4px;
-}
-
-.tiny-cell {
-    width: 24px;
 }
 
 .forum-post-title {
@@ -65,13 +20,4 @@ td {
     font-size: 11px;
     min-height: 14px;
     color: rgba(255, 255, 255, 0.6);
-}
-
-tr {
-    background-color: rgba(255, 255, 255, 0.04);
-    width: 100%;
-}
-
-.even-row {
-    background-color: #28333D !important;
 }
