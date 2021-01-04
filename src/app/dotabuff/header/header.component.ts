@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  navExpand:boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  showNav() {
+    this.navExpand = true;
+  }
+
+  hideNav() {
+    this.navExpand = false;
+  }
+
+  
 }

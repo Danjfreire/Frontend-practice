@@ -10,12 +10,23 @@ import { HeroActivityComponent } from './hero-activity/hero-activity.component';
 
 
 @NgModule({
-  declarations: [LayoutComponent, HeaderComponent, PostComponent, PlayerActivity, ForumActivityComponent, HeroActivityComponent],
+  declarations: [
+    LayoutComponent,
+    HeaderComponent,
+    PostComponent,
+    PlayerActivity,
+    ForumActivityComponent,
+    HeroActivityComponent],
   imports: [
     CommonModule,
   ],
   exports: [
     LayoutComponent,
-  ]
+    HeaderComponent,
+    PostComponent,
+    PlayerActivity,
+    ForumActivityComponent,
+    HeroActivityComponent
+  ],
 })
 export class DotabuffModule { }
