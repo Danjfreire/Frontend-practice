@@ -48,10 +48,13 @@ ul {
     font-size: 20px;
 }
 
+li {
+    list-style-type: none;
+}
+
 nav li {
     float: left;
     color: white;
-    list-style-type: none;
 }
 
 nav li a {
@@ -116,4 +119,34 @@ nav li a:hover {
     .show-on-mobile {
         display: inline-block !important;
     }
+}
+
+.mobile-menu {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #242F39;
+}
+
+.mobile-menu nav {
+    width: 120px;
+    text-align: left;
+}
+
+.mobile-menu nav ul {
+    padding-left: 0px;
+}
+
+.mobile-menu nav ul li {
+    float: none;
+}
+
+.mobile-menu nav ul li a {
+    text-align: left;
+    font-size: 18px;
+}
+
+.right-arrow {
+    float: right;
+    font-size: 150%;
 }

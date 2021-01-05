@@ -1,9 +1,11 @@
 <div id="nav-bar">
     <div id="inner-nav">
+
         <div id="logo-container">
             <a class="logo hide-on-mobile" href="#">DOTADEBUFF</a>
             <a class="logo show-on-mobile" href="#"><i class="fa fa-bars menu-toggle"></i>DOTADEBUFF</a>
         </div>
+
         <nav class="hide-on-mobile">
             <ul>
                 <li><a (mouseenter)="showNav()" class="color-esports" href="#">ESports</a> </li>
@@ -18,6 +20,7 @@
         </nav>
     </div>
 </div>
+
 <div *ngIf="navExpand" id="outer-nav-bar">
     <div class="outer-nav">
         <nav>
@@ -32,4 +35,19 @@
             </ul>
         </nav>
     </div>
+</div>
+
+<div class="mobile-menu show-on-mobile">
+    <nav>
+        <ul>
+            <li><a (mouseenter)="showNav()" class="color-esports" href="#">ESports <i class="fa fa-caret-right right-arrow"></i></a> </li>
+            <li><a (mouseenter)="showNav()" href="#">Heróis <i class="fa fa-caret-right right-arrow"></i></a> </li>
+            <li><a (mouseenter)="showNav()" href="#">Itens <i class="fa fa-caret-right right-arrow"></i></a> </li>
+            <li><a (mouseenter)="showNav()" href="#">Jogadores <i class="fa fa-caret-right right-arrow"></i></a> </li>
+            <li><a (mouseenter)="showNav()" href="#">Partidas <i class="fa fa-caret-right right-arrow"></i></a> </li>
+            <li><a (mouseenter)="hideNav()" href="#">Blog </a> </li>
+            <li><a (mouseenter)="hideNav()" href="#">Fóruns</a> </li>
+            <li><a (mouseenter)="hideNav()" class="color-plus" href="#">Plus</a> </li>
+        </ul>
+    </nav>
 </div>
