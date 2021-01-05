@@ -1,9 +1,10 @@
 <div id="nav-bar">
     <div id="inner-nav">
         <div id="logo-container">
-            <a id="logo" href="#">DOTADEBUFF</a>
+            <a class="logo hide-on-mobile" href="#">DOTADEBUFF</a>
+            <a class="logo show-on-mobile" href="#"><i class="fa fa-bars menu-toggle"></i>DOTADEBUFF</a>
         </div>
-        <nav>
+        <nav class="hide-on-mobile">
             <ul>
                 <li><a (mouseenter)="showNav()" class="color-esports" href="#">ESports</a> </li>
                 <li><a (mouseenter)="showNav()" href="#">Heróis</a> </li>

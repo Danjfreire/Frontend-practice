@@ -37,9 +37,10 @@ ul {
     justify-content: center;
     align-items: center;
     float: left;
+    padding: 0px 4px;
 }
 
-#logo {
+.logo {
     display: block;
     color: white;
     text-decoration: none;
@@ -90,4 +91,29 @@ nav li a:hover {
 
 .outer-nav nav li a:hover {
     color: white;
+}
+
+.menu-toggle {
+    display: none;
+    color: white;
+    margin: 0px 4px;
+}
+
+.show-on-mobile {
+    display: none !important;
+}
+
+@media only screen and (max-width:720px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+    .menu-toggle {
+        display: inline-block;
+    }
+    #logo-container {
+        width: fit-content;
+    }
+    .show-on-mobile {
+        display: inline-block !important;
+    }
 }
