@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   navExpand:boolean = false;
+  isMenuToggled:boolean = false;
 
   constructor() { }
 
@@ -20,6 +21,11 @@ export class HeaderComponent implements OnInit {
 
   hideNav() {
     this.navExpand = false;
+  }
+
+  toggleMenu(event:Event) {
+    event.preventDefault();
+    this.isMenuToggled = !this.isMenuToggled;
   }
 
   

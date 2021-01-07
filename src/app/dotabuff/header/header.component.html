@@ -3,7 +3,7 @@
 
         <div id="logo-container">
             <a class="logo hide-on-mobile" href="#">DOTADEBUFF</a>
-            <a class="logo show-on-mobile" href="#"><i class="fa fa-bars menu-toggle"></i>DOTADEBUFF</a>
+            <a class="logo show-on-mobile" href="#" (click)="toggleMenu($event)"><i class="fa fa-bars menu-toggle"></i>DOTADEBUFF</a>
         </div>
 
         <nav class="hide-on-mobile">
@@ -37,7 +37,7 @@
     </div>
 </div>
 
-<div class="mobile-menu show-on-mobile">
+<div *ngIf="isMenuToggled" class="mobile-menu">
     <nav>
         <ul>
             <li><a (mouseenter)="showNav()" class="color-esports" href="#">ESports <i class="fa fa-caret-right right-arrow"></i></a> </li>
