@@ -1,26 +1,52 @@
-<app-dotabuff-header>
-</app-dotabuff-header>
-<div id="main-content">
-    <div id="posts">
-        <div id="search-form">
-            <form>
-                <input class="search-input" type="text" placeholder="Procure por heróis, jogadores ou partidas...">
-                <button id="search-button">
-                    <i class="fa fa-search"></i>
-                    BUSCA
-                </button>
-            </form>
+<div class="page-container">
+    <app-dotabuff-header>
+    </app-dotabuff-header>
+    <div id="main-content">
+        <div id="posts">
+            <div id="search-form">
+                <form>
+                    <input class="search-input" type="text" placeholder="Procure por heróis, jogadores ou partidas...">
+                    <button id="search-button">
+                        <i class="fa fa-search"></i>
+                        BUSCA
+                    </button>
+                </form>
+            </div>
+
+            <app-dotabuff-post></app-dotabuff-post>
+            <app-dotabuff-post></app-dotabuff-post>
+            <app-dotabuff-post></app-dotabuff-post>
+            <app-dotabuff-post></app-dotabuff-post>
         </div>
 
-        <app-dotabuff-post></app-dotabuff-post>
-        <app-dotabuff-post></app-dotabuff-post>
-        <app-dotabuff-post></app-dotabuff-post>
-        <app-dotabuff-post></app-dotabuff-post>
+        <div id="activity">
+            <app-dotabuff-player-activity></app-dotabuff-player-activity>
+            <app-dotabuff-forum-activity></app-dotabuff-forum-activity>
+            <app-dotabuff-hero-activity></app-dotabuff-hero-activity>
+        </div>
     </div>
 
-    <div id="activity">
-        <app-dotabuff-player-activity></app-dotabuff-player-activity>
-        <app-dotabuff-forum-activity></app-dotabuff-forum-activity>
-        <app-dotabuff-hero-activity></app-dotabuff-hero-activity>
-    </div>
+    <footer>
+        <div class="footer-container">
+            <nav class="locale-selector">
+                <a href="#"><i class="fa fa-flag"></i> Idioma do País(Idioma) <i class="fa fa-caret-up right"></i></a>
+            </nav>
+
+            <a class="footer-link color-discord" href="#"><i class="fa fa-discord"></i></a>
+            <a class="footer-link color-twitter" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="footer-link color-facebook" href="#"><i class="fa fa-facebook"></i></a>
+            <a class="footer-link" href="#">Link 1</a>
+            <a class="footer-link" href="#">Link 1</a>
+            <a class="footer-link" href="#">Link 1</a>
+            <a class="footer-link" href="#">Link 1</a>
+            <a class="footer-link" href="#">Link 1</a>
+            <a class="footer-link" href="#">Link 1</a>
+            <a class="footer-link" href="#">Link 1</a>
+            <a class="footer-link" href="#">Link 1</a>
+            <a class="footer-link" href="#">Link 1</a>
+        </div>
+        <div class="footer-container">
+            <p class="copyright-text">Copypasta 2021 <a href="#">Dan Entertainment.</a> Bla Bla Bla Bla</p>
+        </div>
+    </footer>
 </div>
