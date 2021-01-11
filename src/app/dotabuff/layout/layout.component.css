@@ -78,21 +78,6 @@ form {
     display: none;
 }
 
-@media only screen and (max-width: 720px) {
-    .search-input {
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    #posts {
-        width: 100%;
-    }
-    #activity {
-        width: 100%;
-    }
-}
-
 footer {
     height: 60px;
     width: 100%;
@@ -107,7 +92,7 @@ footer {
 }
 
 .footer-container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
 }
 
@@ -174,4 +159,22 @@ footer {
 
 .copyright-text a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 720px) {
+    .search-input {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #posts {
+        width: 100%;
+    }
+    #activity {
+        width: 100%;
+    }
+    .footer-container {
+        width: 90%;
+    }
 }
