@@ -12,7 +12,6 @@ import { DotabuffModule } from './dotabuff/dotabuff.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DotabuffModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

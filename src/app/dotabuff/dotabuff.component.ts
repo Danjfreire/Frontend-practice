@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-dotabuff',
-  templateUrl: './layout.component.html',
-  styleUrls: ['./layout.component.css']
+  templateUrl: './dotabuff.component.html',
+  styleUrls: ['./dotabuff.component.css']
 })
-export class LayoutComponent implements OnInit {
+export class DotabuffComponent implements OnInit {
 
   constructor() { }
 
