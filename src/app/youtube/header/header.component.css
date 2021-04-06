@@ -1,0 +1,13 @@
+.header {
+    height: 56px;
+    background-color: grey;
+    position: sticky;
+    top: 50px;
+}
+
+.logo {
+    font-family: 'Oswald';
+    font-size: 18px;
+    color: black;
+    word-spacing: -1px;
+}

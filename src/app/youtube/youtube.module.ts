@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { YoutubeComponent } from './youtube.component';
 import { YoutubeRoutingModule } from './youtube-routing.module';
+import { HeaderModule } from './header/header.module';
 
 
 
@@ -9,7 +10,8 @@ import { YoutubeRoutingModule } from './youtube-routing.module';
   declarations: [YoutubeComponent],
   imports: [
     CommonModule,
-    YoutubeRoutingModule
+    YoutubeRoutingModule,
+    HeaderModule
   ]
 })
 export class YoutubeModule { }
