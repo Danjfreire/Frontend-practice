@@ -1,13 +1,98 @@
-.header {
-    height: 56px;
-    background-color: grey;
+#header {
+    height: 40px;
+    background-color: white;
     position: sticky;
     top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 
-.logo {
+#logo-container {
+    flex: 1 1 auto;
+    background-color: white;
+}
+
+#logo {
+    color: red;
+    font-size: 24px;
+}
+
+#logo-text {
     font-family: 'Oswald';
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     word-spacing: -1px;
+    flex: 1 1 auto;
+}
+
+#search-container {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#search-form {
+    display: flex;
+    width: 90%;
+    height: 30px;
+}
+
+#input-container {
+    width: 85%;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #111111;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+}
+
+#input-container:focus-within {
+    border: 1px solid #1C62b9;
+}
+
+#search-input {
+    width: 95%;
+    height: 100%;
+    outline: none;
+    border: none;
+    align-self: center;
+}
+
+#search-form button {
+    cursor: pointer;
+    width: 65px;
+    background-color: #F9F9F9;
+    border: 1px solid #d3d3d3;
+    color: #aaaaaafd;
+}
+
+#search-form button:hover {
+    cursor: pointer;
+    background-color: #F0F0F0;
+    border: 1px solid #d3d3d3;
+    color: #333;
+}
+
+#mic-icon {
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+}
+
+#actions-container {
+    flex: 1 1 auto;
+    background-color: blue;
+}
+
+i {
+    color: #606060;
+    cursor: pointer;
+}
+
+i:hover {
+    color: #111111;
 }

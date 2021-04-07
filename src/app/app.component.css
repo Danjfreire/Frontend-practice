@@ -1,5 +1,6 @@
 #site-selector {
     background-color: white;
+    border-bottom: 2px solid grey;
     margin: 0px;
     padding: 25px;
     position: sticky;
