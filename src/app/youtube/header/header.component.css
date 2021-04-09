@@ -11,8 +11,15 @@
 }
 
 #logo-container {
+    display: flex;
     flex: 1 1 auto;
     background-color: white;
+    align-items: center;
+}
+
+#menu-icon {
+    margin: 0px 20px;
+    font-size: 18px;
 }
 
 #logo {
@@ -80,12 +87,7 @@
     font-size: 20px;
     display: flex;
     align-self: center;
-    margin-left: 10px;
-}
-
-#actions-container {
-    flex: 1 1 auto;
-    background-color: blue;
+    margin-left: 15px;
 }
 
 i {
@@ -95,4 +97,23 @@ i {
 
 i:hover {
     color: #111111;
+}
+
+#actions-container {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row-reverse;
+}
+
+#actions-container i {
+    margin: 0px 15px;
+    align-self: center;
+    font-size: 18px;
+}
+
+#avatar-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
