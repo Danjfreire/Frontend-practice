@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { YoutubeComponent } from './youtube.component';
 import { YoutubeRoutingModule } from './youtube-routing.module';
 import { HeaderModule } from './header/header.module';
+import { SidebarModule } from './sidebar/sidebar.module';
+import { VideoFeedModule } from './video-feed/video-feed.module';
 
 
 
@@ -11,7 +13,9 @@ import { HeaderModule } from './header/header.module';
   imports: [
     CommonModule,
     YoutubeRoutingModule,
-    HeaderModule
+    HeaderModule,
+    SidebarModule,
+    VideoFeedModule,
   ]
 })
 export class YoutubeModule { }
