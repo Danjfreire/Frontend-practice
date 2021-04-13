@@ -4,8 +4,11 @@
     bottom: 0;
     background-color: white;
     position: fixed;
-    border-right: 1px solid black;
-    padding-right: 15px;
+    padding-right: 5px;
+    overflow-y: hidden;
+}
+
+.sidebar-container:hover {
     overflow-y: scroll;
 }
 
@@ -45,4 +48,14 @@ h1 {
     font-size: 14px;
     color: #606060;
     padding: 8px 24px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #d3d3d3;
 }
