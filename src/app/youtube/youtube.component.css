@@ -1,3 +1,15 @@
 .page-container {
     font-family: 'Roboto', 'Arial', 'sans-serif';
+    background-color: #F9F9F9;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #d3d3d3;
 }

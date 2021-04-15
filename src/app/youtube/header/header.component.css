@@ -2,12 +2,11 @@
     height: 40px;
     background-color: white;
     position: sticky;
-    top: 50px;
+    top: 0px;
     display: flex;
     flex-direction: row;
     padding: 8px;
     align-items: center;
-    border-bottom: 1px solid #ccc;
 }
 
 #logo-container {

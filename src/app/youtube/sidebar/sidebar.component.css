@@ -1,6 +1,8 @@
+@import url('../youtube.component.css');
+
 .sidebar-container {
     width: 220px;
-    top: 130px;
+    top: 105px;
     bottom: 0;
     background-color: white;
     position: fixed;
@@ -50,12 +52,3 @@ h1 {
     padding: 8px 24px;
 }
 
-::-webkit-scrollbar {
-    width: 8px;
-    padding: 0px;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background: #d3d3d3;
-}

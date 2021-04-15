@@ -4,10 +4,12 @@
 }
 
 #site-selector {
+    display: flex;
+    align-items: center;
     background-color: white;
     border-bottom: 2px solid grey;
     margin: 0px;
-    padding: 25px;
+    height: 50px;
     position: sticky;
     top: 0px;
     width: 100%;
@@ -17,8 +19,18 @@
 #site-content {
     width: 100%;
     position: fixed;
-    top: 50px;
+    top: 52px;
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #d3d3d3;
 }
