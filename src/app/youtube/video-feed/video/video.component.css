@@ -1,0 +1,29 @@
+.video-thumbnail {
+    width: 210px;
+    height: 118px;
+    background-color: white;
+}
+
+.video {
+    display: inline-block;
+    margin: 0px 4px 24px 0px ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.video-title {
+    font-size: 14px;
+    color: #030303;
+}
+
+.channel {
+    font-size: 13px;
+    color: #606060;
+}
+
+.views {
+    font-size: 13px;
+    color: #606060;
+}
