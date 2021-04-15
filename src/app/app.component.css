@@ -1,8 +1,24 @@
+#container {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
 #site-selector {
     background-color: white;
     border-bottom: 2px solid grey;
     margin: 0px;
     padding: 25px;
     position: sticky;
-    top: 0;
+    top: 0px;
+    width: 100%;
+    overflow:hidden;
+}
+
+#site-content {
+    width: 100%;
+    position: fixed;
+    top: 50px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
