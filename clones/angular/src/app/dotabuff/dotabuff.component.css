@@ -1,0 +1,177 @@
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    background-color: #1C242D !important;
+}
+
+#main-content {
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    background-color: #1C242D;
+    margin: 0px auto;
+    max-width: 1200px;
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+
+.ad-text {
+    color: orange;
+}
+
+#posts {
+    width: 66%;
+    height: 100%;
+    background-color: #1C242D;
+    float: left;
+}
+
+#activity {
+    width: 34%;
+    height: 100%;
+    float: left;
+    background-color: #1C242D;
+}
+
+#search-form {
+    background-color: #242F39;
+    height: 62px;
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 0;
+    width: 80%;
+}
+
+.search-input {
+    background-color: #1C242D;
+    color: white;
+    width: 80%;
+    min-height: 36px;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 3px rgba(10, 10, 10, 0.4);
+    padding: 0px 8px;
+}
+
+#search-input:focus {
+    outline: none !important;
+    background-color: #202933;
+}
+
+#search-button {
+    display: inline-block;
+    background-color: #242D31;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #92bb35;
+    color: #92bb35;
+    line-height: 13px;
+    letter-spacing: 0.5px;
+    padding: 9px 13px;
+    margin-left: 2px;
+}
+
+.show-on-mobile {
+    display: none;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.footer-link {
+    float: right;
+    display: block;
+    color: white;
+    margin-right: 5px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.color-facebook {
+    color: #3c62b0 !important;
+}
+
+.color-twitter {
+    color: #6CDFEA !important;
+}
+
+.color-discord {
+    color: #8298e3 !important
+}
+
+.locale-selector {
+    display: inline-block;
+    background-color: #2E3740;
+    padding: 0px 5px;
+    width: 260px;
+    height: 24px;
+    box-shadow: 0 0 3px rgba(10, 10, 10, 0.4);
+}
+
+.locale-selector a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.right {
+    float: right;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.copyright-text {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+.copyright-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright-text a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 720px) {
+    .search-input {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #posts {
+        width: 100%;
+    }
+    #activity {
+        width: 100%;
+    }
+    .footer-container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,42 @@
+.feed-container {
+    height: 100%;
+    background-color: #f9f9f9;
+    margin-left: 225px;
+    padding: 20px 10%;
+}
+
+.feed {
+    height: 98vh;
+    align-items: center;
+}
+
+.today-header { 
+    display: flex;
+}
+
+.title {
+    justify-self: flex-start;
+    font-size: 16px;
+    color: #030303;
+    font-weight: 500;
+}
+
+a {
+    font-size: 14px;
+    margin-left: auto;
+    padding: 0PX 16px;
+    color: #065FD4;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+i {
+    padding: 0px 10px;
+    color: #606060;
+    cursor: pointer;
+}
+
+.videos {
+    margin-top: 15px;
+}
